@@ -35,6 +35,10 @@ public class StringMethod {
 		System.out.println(  );
 		System.out.println(  );
 		
+		String test1 = "recruit qna notice";
+		test1 = test1.replaceAll("qna", "");
+		System.out.println(test1);
+		
 		
 	}//test
 	
